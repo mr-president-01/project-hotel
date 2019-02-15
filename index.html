@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Four Seasons</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="navigation">
+                <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Four Seasons</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link smooth" href="#home">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smooth" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smooth" href="#features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smooth" href="#contacts" tabindex="-1">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="banner" id="home">
+                <div class="bd-example">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/slide01.jpg" class="d-block w-100" alt="Light room">
+                                <div class="carousel-caption ">
+                                    <h5>Paris</h5>
+                                    <!-- Button book now modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bookNowModal">
+                                        Book now
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide02.jpg" class="d-block w-100" alt="Cozy room">
+                                <div class="carousel-caption ">
+                                    <h5>New-York</h5>
+                                    <!-- Button book now modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bookNowModal">
+                                        Book now
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide03.jpeg" class="d-block w-100" alt="Presidental suits">
+                                <div class="carousel-caption ">
+                                    <h5>London</h5>
+                                    <!-- Button book now modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bookNowModal">
+                                        Book now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h2 id="services">Services</h2>
+            <div class="buttons-services">
+                <span data-target="#carousel-services" data-slide-to="0" class="badge badge-pill badge-light"><img src="img/resticon.png" alt="restaurant icon"></span>
+                <span data-target="#carousel-services" data-slide-to="1" class="badge badge-pill badge-light"><img src="img/baricon.png" alt="bar icon"></span>
+                <span data-target="#carousel-services" data-slide-to="2" class="badge badge-pill badge-light"><img src="img/caricon.png" alt="car icon"></span>
+                <span data-target="#carousel-services" data-slide-to="3" class="badge badge-pill badge-light"><img src="img/poolicon.png" alt="pool icon"></span>
+            </div>
+            <div id="carousel-services" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-services" data-slide-to="0" class="active scroll-but-r"></li>
+                    <li data-target="#carousel-services" data-slide-to="1" class="scroll-but-b"></li>
+                    <li data-target="#carousel-services" data-slide-to="2" class="scroll-but-c"></li>
+                    <li data-target="#carousel-services" data-slide-to="3" class="scroll-but-p"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/restaurant.jpg" class="d-block w-100" alt="restaurant">
+                        <div class="carousel-caption ">
+                            <h5>RESTAURANT</h5>
+                            <p>We start with only authentic old world recipes that have featured and enjoyed for years throughout the
+                                whole the world. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/bar.jpg" class="d-block w-100" alt="bar">
+                        <div class="carousel-caption ">
+                            <h5>BAR</h5>
+                            <p>Though phone boxes, bookshelves and hidden doors do a good trade in speakeasy entrances, a florist has
+                                to be up there on originality. That’s where you’ll find the doorway to..</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/car.jpg" class="d-block w-100" alt="bmw">
+                        <div class="carousel-caption ">
+                            <h5>AIRPORT TRANSFER</h5>
+                            <p>BMW 5-Series. Genesis G80. Audi A6. Lexus GS Hybrid. Find Best Price. Mercedes-Benz E-Class. Volvo S90.
+                                Lexus GS. Cadillac CTS.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pool.jpg" class="d-block w-100" alt="pool">
+                        <div class="carousel-caption ">
+                            <h5>POOL & SPA</h5>
+                            <p>We use top of the line products in all of our pools from the best in the business. We will take your
+                                old pool and make it look brand new..</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-services" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-services" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h2 id="features">Features</h2>
+            <div class="row justify-content-around">
+                <div class="card mb-3 col-12">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="img/istanbul.jpg" class="card-img" alt="Istanbul landscape">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Kuala Lumpur</h5>
+                                <p class="card-text">Surrounded by the multicultural energy of Malaysia’s dynamic capital,
+                                    Four Seasons Hotel Kuala Lumpur takes centre stage with panache.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="card mb-3 col-6">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="img/jakarta.jpg" class="card-img" alt="Jakarta landscape">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">São Paulo, Brazil</h5>
+                                <p class="card-text">Debuting in South America’s business and cultural powerhouse..</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 col-6">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="img/munich.jpg" class="card-img" alt="Munchen room">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Astir Palace, Athens</h5>
+                                <p class="card-text">On the sophisticated Athens Riviera..</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="contacts">
+                <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action active">
+                        How you can find us
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">Tool-Free: 888-999-8888</button>
+                    <button type="button" class="list-group-item list-group-item-action">Phone: 777-888-7777</button>
+                    <button type="button" class="list-group-item list-group-item-action">Fax: 666-777-6666</button>
+                    <button type="button" class="list-group-item list-group-item-action">Email: office@hotel.com</button>
+                </div>
+            </div>
+            <div class="boof"></div>
+            <div class="map">
+                <div style="overflow:hidden;"><iframe src="https://maps.google.com/maps?q=New-York+(Four%20seasons%20hotel)&amp;ie=UTF8&amp;t=&amp;z=9&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+                        <small style="line-height: 1.8;font-size: 2px;background: #fff;"><a href="https://embedgooglemaps.com/en/"></a><a href="https://iamsterdamcard.it"></a></small></div>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
+    <div class="modul">
+        <!-- Modal -->
+        <div class="modal fade" id="bookNowModal" tabindex="-1" role="dialog" aria-labelledby="bookNowModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookNowModalTitle">Book room:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+<div class="spinner_wrapper">
+                        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status"><span class="sr-only">Loading...</span></div>
+</div>
+                        <form id="book-form">
+                            <div class="request-form">
+                                <div class="select-form">
+                                    <select size="3" required="" name="hotelselect">
+                                        <option disabled>Select city</option>
+                                        <option selected value="Paris hotel">Paris</option>
+                                        <option value="New-York hotel">New-York</option>
+                                        <option value="London hotel">London</option>
+                                    </select>
+                                    <select size="3" required="" name="roomselect">
+                                        <option disabled>Select room</option>
+                                        <option selected value="standart">Standart</option>
+                                        <option value="luxe">Luxe</option>
+                                        <option value="president">President apartaments</option>
+                                    </select>
+                                </div>
+                                <div class="input-form">
+                                    <div><input required="" type="date" name="checkin" id="checkin"><label for="checkin">Check in</label></div>
+                                    <div><input required="" type="date" name="checkout" id="checkout"><label for="checkout">Check out</label></div>
+                                    <div><input required="" type="text" name="phone-number" id="phone-number" placeholder="+38 (063) 777-88-99"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button form="book-form" type="button submit" id="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h6>Created by Volodymyr Herych</h6>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
